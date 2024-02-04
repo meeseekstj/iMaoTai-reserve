@@ -9,7 +9,7 @@ on:
     paths:
       - '.github/workflows/**'
   schedule:
-    - cron: '5 11 * * *'
+    - cron: '5 1 * * *' # cron时区UTC，因此减去8个小时
 
 env:
   TZ: Asia/Shanghai
