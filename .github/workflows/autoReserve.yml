@@ -19,7 +19,8 @@ permissions:
 
 jobs:
   build:
-
+    environment:
+      name: PUSHPLUS_KEY
     runs-on: ubuntu-latest
     #    runs-on: windows-latest
 
